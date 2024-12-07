@@ -5,14 +5,19 @@
 .navbar .navbar-brand {
     color: var(--main-color);
 }
-
+nav {
+    z-index: 99999;
+}
 .navbar-nav .nav-link.active {
     color: var(--main-color);
 }
 
+nav .nav-link {
+    color:  white;
+    transition: all 1s;
+}
 .nav-link {
     color: black;
-    transition: all 1s;
 }
 
 .nav-link:hover {
